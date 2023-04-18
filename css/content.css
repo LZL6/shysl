@@ -1,0 +1,690 @@
+/* body {
+    background: url(../image/body.jpg) no-repeat 0 -80px;
+    background-size: 100%;
+
+} */
+/* 当页面宽度大于1600px*/
+@media screen and (min-width:1900px) {
+
+    /* body {
+            background: url(../image2/body2.jpg) no-repeat 0 930px;
+            background-size: 100%;
+        } */
+    .bi1 {
+        width: 1896px;
+        margin: 0 auto;
+        background: url(../image/第一个背景妖.png) no-repeat;
+    }
+
+    .bi2 {
+        width: 1896px;
+        margin: 0 auto;
+        background: url(../image/第二个背景妖.jpg) no-repeat;
+    }
+
+    .bi3 {
+        width: 1896px;
+        margin: 0 auto;
+        background: url(../image/第三个背景妖.png) no-repeat;
+    }
+
+    .bi4 {
+        width: 1896px;
+        margin: 0 auto;
+        background: url(../image/第四个背景妖.jpg) no-repeat;
+    }
+
+}
+
+@media screen and (max-width:1900px) {
+    body {
+        background: url(../image/body.jpg) no-repeat;
+        background-size: 100%;
+        /* background-color: rgb(230, 197, 188); */
+    }
+}
+
+/* @media screen and (max-width:1800px) and (min-width:1600px) {
+
+    .bi1 {
+        width: 1720px;
+        margin: 0 auto;
+        background: url(../image/第一个背景妖.png) no-repeat;
+    }
+
+    .bi2 {
+        width: 1720px;
+        margin: 0 auto;
+        background: url(../image/第二个背景妖.jpg) no-repeat;
+    }
+
+    .bi3 {
+        width: 1720px;
+        margin: 0 auto;
+        background: url(../image/第三个背景妖.png) no-repeat;
+    }
+
+    .bi4 {
+        width: 1720px;
+        margin: 0 auto;
+        background: url(../image/第四个背景妖.jpg) no-repeat;
+    }
+
+}
+
+/* 当页面宽度大于1600px*/
+@media screen and (max-width:1600px) {
+
+    .bi1 {
+        width: 1518px;
+        margin: 0 auto;
+        background: url(../image/第一个背景妖.png) no-repeat;
+    }
+
+
+    .bi2 {
+        width: 1518px;
+        margin: 0 auto;
+        background: url(../image/第二个背景妖.jpg) no-repeat;
+    }
+
+    .bi3 {
+        width: 1518px;
+        margin: 0 auto;
+        background: url(../image/第三个背景妖.png) no-repeat;
+    }
+
+    .bi4 {
+        width: 1518px;
+        margin: 0 auto;
+        background: url(../image/第四个背景妖.jpg) no-repeat;
+    }
+
+}
+
+.w {
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.content1 {
+    /* overflow: hidden; */
+    margin: 0 auto;
+    width: 100%;
+    width: 1380px;
+    height: 1200px;
+    /* background: url(../image/第一个背景妖.png) no-repeat; */
+}
+
+
+.content2 {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1380px;
+    height: 874px;
+    /* background: url(../image/第二个背景妖.jpg) no-repeat; */
+}
+
+.content3 {
+    position: relative;
+    margin: 0 auto;
+    width: 1380px;
+    height: 1044px;
+    /* background: url(../image/第三个背景妖.png) no-repeat; */
+}
+
+.content4 {
+    position: relative;
+    margin: 0 auto;
+    width: 1380px;
+    height: 939px;
+    /* background: url(../image/第四个背景妖.jpg) no-repeat; */
+}
+
+.content1 .title {
+    margin-top: 90px;
+    margin-left: 564px;
+}
+
+.content1 .text1 {
+    position: relative;
+    float: left;
+    margin-top: 52px;
+    /* margin-left: 260px; */
+    height: 430px;
+    width: 680px;
+    /* background-color: rgb(255, 50, 50); */
+}
+
+
+.content1 .text2 {
+    float: right;
+    margin-top: 52px;
+    /* margin-right: 260px; */
+    height: 430px;
+    width: 680px;
+    /* background-color: rgb(255, 50, 50); */
+}
+
+.content1 .text3 {
+    float: left;
+    margin-top: 20px;
+    /* margin-left: 260px; */
+    height: 430px;
+    width: 680px;
+    /* background-color: rgb(255, 50, 50); */
+}
+
+.content1 .text4 {
+    float: right;
+    margin-top: 20px;
+    /* margin-right: 260px; */
+    height: 430px;
+    width: 680px;
+    /* background-color: rgb(255, 50, 50); */
+}
+
+.content1 .text2 .text2_1,
+.content1 .text3 .text3_1 {
+    float: left;
+    width: 330px;
+    height: 205px;
+    background-color: rgb(152, 231, 26);
+    /* background: url(../image/一：2图.png); */
+}
+
+.content1 .text2 .text2_1 {
+    background: url(../image/ch.jpg);
+}
+
+.content1 .text3 .text3_1 {
+    background: url(../image/hu.jpg);
+}
+
+.content1 .text2 .text2_2,
+.content1 .text3 .text3_2 {
+    float: right;
+    width: 330px;
+    height: 205px;
+    /* background-color: rgb(152, 231, 26); */
+    /* background: url(../image/一：2图.png); */
+}
+
+.content1 .text3 .text3_2 {
+    background: url(../image/yishou.jpg);
+}
+
+.content1 .text2 .text2_2 {
+    background: url(../image/long.jpg);
+}
+
+.content1 .text2 .text2_3,
+.content1 .text3 .text3_3 {
+    float: left;
+    width: 330px;
+    height: 205px;
+    margin-top: 20px;
+    /* background-color: rgb(152, 231, 26);
+    background: url(../image/一：2图.png); */
+}
+
+.content1 .text2 .text2_3 {
+    background: url(../image/quan.jpg);
+}
+
+.content1 .text3 .text3_3 {
+    background: url(../image/bkqs.jpg);
+}
+
+.content1 .text2 .text2_4,
+.content1 .text3 .text3_4 {
+    float: right;
+    width: 330px;
+    height: 205px;
+    margin-top: 20px;
+    background-color: rgb(152, 231, 26);
+    background: url(../image/一：2图.png);
+}
+
+.content1 .text3 .text3_4 {
+    background: url(../image/r.jpg);
+}
+
+.content1 .text1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.content1 .text1 a,
+.content1 .text4 a {
+    position: relative;
+    display: block;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/一：1图.png);
+    font-size: 28px;
+}
+
+.content1 .text1 a {
+    background: url(../image/zlon.jpg);
+}
+
+.content1 .text2 .text2_1 a,
+.content1 .text2 .text2_2 a,
+.content1 .text2 .text2_3 a,
+.content1 .text2 .text2_4 a,
+.content1 .text3 .text3_4 a,
+.content1 .text3 .text3_3 a,
+.content1 .text3 .text3_2 a,
+.content1 .text3 .text3_1 a {
+    position: relative;
+    display: block;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+.content1 .text1 a p,
+.content1 .text4 a p {
+    position: absolute;
+    top: 326px;
+    left: 25px;
+}
+
+.content1 .text2 .text2_1 a p,
+.content1 .text2 .text2_2 a p,
+.content1 .text2 .text2_3 a p,
+.content1 .text2 .text2_4 a p,
+.content1 .text3 .text3_4 a p,
+.content1 .text3 .text3_3 a p,
+.content1 .text3 .text3_2 a p,
+.content1 .text3 .text3_1 a p {
+    position: absolute;
+    top: 140px;
+    left: 16px;
+}
+
+.content1 .text1 a:hover p,
+.content1 .text4 a:hover p {
+    text-decoration: underline;
+}
+
+.content1 .text2 .text2_1 a:hover p,
+.content1 .text2 .text2_2 a:hover p,
+.content1 .text2 .text2_3 a:hover p,
+.content1 .text2 .text2_4 a:hover p,
+.content1 .text3 .text3_4 a:hover p,
+.content1 .text3 .text3_3 a:hover p,
+.content1 .text3 .text3_2 a:hover p,
+.content1 .text3 .text3_1 a:hover p {
+    text-decoration: underline;
+}
+
+.content1 .text1 a .mask,
+.content1 .text4 a .mask {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2) no-repeat;
+}
+
+.content1 .text2 .text2_1 .mask,
+.content1 .text2 .text2_2 .mask,
+.content1 .text2 .text2_3 .mask,
+.content1 .text2 .text2_4 .mask,
+.content1 .text3 .text3_4 .mask,
+.content1 .text3 .text3_3 .mask,
+.content1 .text3 .text3_2 .mask,
+.content1 .text3 .text3_1 .mask {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2) no-repeat;
+}
+
+.content1 .text1 a:hover .mask,
+.content1 .text4 a:hover .mask {
+    display: block;
+}
+
+.content1 .text2 .text2_1 a:hover .mask,
+.content1 .text2 .text2_2 a:hover .mask,
+.content1 .text2 .text2_3 a:hover .mask,
+.content1 .text2 .text2_4 a:hover .mask,
+.content1 .text3 .text3_4 a:hover .mask,
+.content1 .text3 .text3_3 a:hover .mask,
+.content1 .text3 .text3_2 a:hover .mask,
+.content1 .text3 .text3_1 a:hover .mask {
+    display: block;
+}
+
+
+
+
+.content_big {
+    position: relative;
+    height: 666px;
+    margin-top: 102px;
+    /* background-color: rgb(43, 199, 4); */
+}
+
+.content2 .tu1 {
+    position: absolute;
+    left: 0;
+    top: 62px;
+}
+
+.content2 .tu2 {
+    position: absolute;
+    left: 0px;
+    top: 420px;
+}
+
+.content2 .content_big>a {
+    position: absolute;
+    top: 480px;
+    color: #a83e40;
+    left: 16px;
+    font-size: 18px;
+}
+
+.content2 .content_big>a:hover {
+    color: #fa3b3e;
+}
+
+.content2 .content_big .content2_text1 {
+    overflow: hidden;
+    float: right;
+    border: 1px solid #332f2f;
+    width: 280px;
+    height: 666px;
+    background-color: rgb(230, 130, 37);
+}
+
+.content2 .content_big .content2_text2,
+.content2 .content_big .content2_text3,
+.content2 .content_big .content2_text4 {
+    overflow: hidden;
+    float: right;
+    border: 1px solid #332f2f;
+    margin-right: 20px;
+    width: 280px;
+    height: 666px;
+    background-color: rgb(230, 130, 37);
+}
+
+.content2_text4 img,
+.content2_text3 img,
+.content2_text2 img,
+.content2_text1 img {
+    cursor: pointer;
+    transition: all 0.6s;
+    /*图片放大过程的时间*/
+}
+
+.content2_text4 img:hover,
+.content2_text3 img:hover,
+.content2_text2 img:hover,
+.content2_text1 img:hover {
+    transform: scale(1.1);
+    /*鼠标经过图片放大的倍数*/
+}
+
+.content3 .tu3 {
+    position: absolute;
+    top: 86px;
+    left: 564px;
+}
+
+.content3 .tu4 {
+    position: absolute;
+    top: 118px;
+    right: 100px;
+}
+
+.content3>a {
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    color: #a83e40;
+    font-size: 18px;
+}
+
+.content3 a:hover {
+    color: #fa3b3e;
+}
+
+.content3 .content3_text1 {
+    float: left;
+    overflow: hidden;
+    margin-top: 190px;
+    /* margin-left: 260px; */
+    border: 1px solid #332f2f;
+    width: 680px;
+    height: 768px;
+    background-color: rgb(237, 14, 14);
+}
+
+.content3 .content3_text1 img,
+.content3_text3_1 img,
+.content3_text3_2 img,
+.content3_text2_1 img,
+.content3_text2_2 img {
+    cursor: pointer;
+    transition: all 0.6s;
+    /*图片放大过程的时间*/
+}
+
+.content3 .content3_text1 img:hover,
+.content3_text3_1 img:hover,
+.content3_text3_2 img:hover,
+.content3_text2_1 img:hover,
+.content3_text2_2 img:hover {
+    transform: scale(1.1);
+    /*鼠标经过图片放大的倍数*/
+}
+
+.content3 .content3_text2 {
+    float: right;
+    margin-top: 190px;
+    /* margin-right: 260px; */
+    width: 330px;
+    height: 768px;
+    /* background-color: rgb(230, 76, 15); */
+}
+
+.content3 .content3_text2_1 {
+    overflow: hidden;
+    width: 330px;
+    height: 374px;
+    border: 1px solid #332f2f;
+    background-color: rgb(30, 242, 34);
+}
+
+.content3 .content3_text2_2 {
+    overflow: hidden;
+    width: 330px;
+    height: 374px;
+    margin-top: 20px;
+    border: 1px solid #332f2f;
+    background-color: rgb(30, 242, 34);
+}
+
+.content3 .content3_text3 {
+    float: right;
+    margin-top: 190px;
+    margin-right: 20px;
+    width: 330px;
+    height: 768px;
+    /* background-color: rgb(230, 76, 15); */
+}
+
+.content3 .content3_text3_1 {
+    overflow: hidden;
+    width: 330px;
+    height: 374px;
+    border: 1px solid #332f2f;
+    background-color: rgb(30, 242, 34);
+}
+
+.content3 .content3_text3_2 {
+    overflow: hidden;
+    width: 330px;
+    height: 374px;
+    margin-top: 20px;
+    border: 1px solid #332f2f;
+    background-color: rgb(30, 242, 34);
+}
+
+.content4 .tu5 {
+    position: absolute;
+    top: 130px;
+    right: 148px;
+}
+
+.content4 .tu6 {
+    position: absolute;
+    top: 200px;
+    right: 368px;
+}
+
+.content4>a {
+    position: absolute;
+    top: 214px;
+    right: 268px;
+    color: #a83e40;
+    font-size: 18px;
+}
+
+.content4>a:hover {
+    color: #fa3b3e;
+}
+
+.content4_text1 {
+    position: relative;
+    float: left;
+    /* margin-left: 260px; */
+    margin-top: 130px;
+    width: 680px;
+    height: 430px;
+    /* background-color: rgb(216, 230, 14); */
+}
+
+.content4 .content4_text1 a,
+.content4 .content4_text2 a {
+    position: relative;
+    display: block;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/四：1图.png);
+    font-size: 28px;
+}
+
+.content4 .content4_text2 a {
+    background: url(../image/四：2图.png);
+}
+
+.content4 .content4_text1 p,
+.content4 .content4_text2 p {
+    position: absolute;
+    top: 360px;
+    left: 72px;
+}
+
+.content4 .content4_text2 p {
+    top: 320px;
+}
+
+.content4 .content4_text1 a:hover p,
+.content4 .content4_text2 a:hover p {
+    text-decoration: underline;
+}
+
+.content4 .content4_text1 a .mask,
+.content4 .content4_text2 a .mask {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2) no-repeat;
+}
+
+.content4 .content4_text1 a:hover .mask,
+.content4 .content4_text2 a:hover .mask {
+    display: block;
+}
+
+.content4_text2 {
+    float: right;
+    /* margin-right: 260px; */
+    margin-top: 366px;
+    width: 680px;
+    height: 430px;
+    /* background-color: rgb(216, 230, 14); */
+}
+
+/* 底部模块 */
+.footer {
+    padding-top: 60px;
+    height: 280px;
+    background-color: #282828;
+}
+
+.im {
+    width: 1380px;
+    margin: 0 auto;
+    /* background-color: rgb(238, 12, 12); */
+}
+
+.im img {
+    height: 60px;
+    margin-left: 580px;
+}
+
+.footer_t {
+    position: relative;
+    height: 125px;
+    line-height: 125px;
+    /* background-color: rgb(25, 205, 221);  */
+    border-bottom: 1px solid rgb(78, 77, 77);
+}
+
+.footer_t .lf {
+    float: left;
+}
+
+.footer_t .lf li {
+    float: left;
+}
+
+.footer_t .lf li a {
+    margin-right: 37px;
+    font-size: 14px;
+    color: rgb(125, 128, 129);
+}
+
+.footer_t .lf li a:hover {
+    color: rgb(186, 199, 199);
+}
+
+.wx {
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.wb {
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    right: 10px;
+}

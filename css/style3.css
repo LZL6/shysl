@@ -1,0 +1,111 @@
+body {
+	height: 100%;
+}
+
+#header {
+	position: absolute;
+	z-index: 5;
+	width: 235px;
+	top: 50px;
+}
+
+#navigation {
+	position: absolute;
+	margin-top: 360px;
+	width: 40px;
+	height: 170px;
+	display: block;
+	list-style: none;
+	z-index: 3;
+	/* background-color: rgb(18, 213, 8); */
+}
+
+#navigation a {
+	color: rgb(235, 214, 214);
+	display: block;
+	background: rgb(246, 6, 6);
+	background: rgba(234, 65, 65, 0.9);
+	line-height: 50px;
+	padding: 0px 8px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+#navigation a:hover {
+	background: rgb(244, 120, 18);
+}
+
+
+.panel {
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.2);
+	margin-left: -102%;
+	z-index: 2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+
+.panel:target {
+	margin-left: 0%;
+	background: url(../image/3d背景图.jpg) no-repeat;
+	background-size: 100%;
+}
+
+#home:target~#header #navigation #link-home,
+#portfolio:target~#header #navigation #link-portfolio,
+#about:target~#header #navigation #link-about,
+#contact:target~#header #navigation #link-contact {
+	background: rgba(234, 65, 65, 0.9);
+	color: rgb(235, 214, 214);
+}
+
+/* 3D滚球样式 */
+.tagBall {
+	width: 800px;
+	height: 800px;
+	margin: 50px auto;
+	position: relative;
+}
+
+.tag {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #000;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+
+.tag:hover {
+	border: 1px solid #666;
+}
+
+.tagBall a img {
+	width: 50px;
+	height: 100px;
+	box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	border: 1px solid #000;
+	cursor: pointer;
+	transition: all 0.6s;
+	/*图片放大过程的时间*/
+}
+
+
+.tagBall a img:hover {
+	transform: scale(4);
+	/*鼠标经过图片放大的倍数*/
+}

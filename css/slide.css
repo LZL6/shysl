@@ -1,0 +1,180 @@
+/* 滑动代码开始 */
+.animated,
+.animated1,
+.animated2,
+.animated3,
+.animated6 {
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated4 {
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated5 {
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.xuanzhuan {
+    animation-name: xuanzhuan;
+    -webkit-animation-name: xuanzhuan;
+}
+
+.xuanzhuan1 {
+    animation-name: xuanzhuan1;
+    -webkit-animation-name: xuanzhuan1;
+}
+
+.xuanzhuan2 {
+    animation-name: xuanzhuan2;
+    -webkit-animation-name: xuanzhuan2;
+}
+
+.xuanzhuan6 {
+    animation-name: xuanzhuan6;
+    -webkit-animation-name: xuanzhuan6;
+}
+
+.xuanzhuan7 {
+    animation-name: xuanzhuan7;
+    -webkit-animation-name: xuanzhuan7;
+}
+
+
+@keyframes xuanzhuan {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-120px);
+    }
+}
+
+@-webkit-keyframes xuanzhuan {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-120px);
+    }
+
+}
+
+@keyframes xuanzhuan1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(120px);
+    }
+}
+
+@-webkit-keyframes xuanzhuan1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(120px);
+    }
+
+}
+
+@keyframes xuanzhuan2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-120px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes xuanzhuan2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-120px);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(0px);
+    }
+
+}
+
+@keyframes xuanzhuan6 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-120px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes xuanzhuan6 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-120px);
+
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+
+}
+
+@keyframes xuanzhuan7 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(120px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes xuanzhuan7 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(120px);
+
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+
+}
+
+/* 滑动代码结束 */
